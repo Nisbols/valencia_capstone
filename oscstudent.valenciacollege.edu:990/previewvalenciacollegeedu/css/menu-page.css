@@ -1,0 +1,116 @@
+/* ====================================================================================================
+	MINIMAL CSS3 MENU
+==================================================================================================== */
+
+.sub_header div.page-menu {
+  /*This over-rides the tint of the background-hero image*/
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0;
+  z-index: 1;
+}
+
+.page-menu {
+  position: relative;
+  width: auto;
+
+}
+
+#page_menu {
+  font-family: "montserrat_semibold", Arial, Helvetica, sans-serif;
+  z-index: auto;
+
+}
+
+.page-menu a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.page-menu ul, .page-menu ul li, .page-menu ul li a {
+  position: relative;
+  margin-bottom: 0;
+  margin: 0;
+  padding: .3em .3em 0 .3em;
+}
+
+/*First level styles */
+
+.page-menu > ul > li > a {
+  color: #fff;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+  padding: 8px 9px 8px 9px;
+  font-size: .75em;
+  font-family: "montserrat_bold", Arial, Helvetica, sans-serif;
+}
+
+.page-menu > ul > li:last-child {
+
+}
+
+.page-menu > ul > li:hover > a {
+  color: #FDB913;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .page-menu {
+  }
+
+  .page-menu a {
+    white-space: nowrap;
+  }
+
+  .page-menu ul li {
+    display: inline-block;
+  }
+
+  .page-menu ul li.submenu:hover > a:before, .page-menu ul li.submenu:hover > a:after {
+    bottom: -20px;
+    opacity: 0;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .page-menu ul li a:hover, a.show-submenu:hover, a.show-submenu:focus, a.show-submenu-mega:hover, a.show-submenu-mega:focus {
+    color: #BF311A !important;
+    background-color: #f9f9f9;
+  }
+
+  .page-menu ul li {
+    border-top: none;
+    border-bottom: 1px solid #ededed;
+    color: #fff;
+  }
+
+  /* Menu mobile first level */
+  .page-menu ul li a {
+    padding: 0px 0px !important;
+  }
+
+  .page-menu li,
+  .page-menu a {
+    display: block;
+    color: #555 !important;
+  }
+
+  .page-menu li {
+    position: relative;
+  }
+
+  .page-menu a:hover {
+    color: #e04f67 !important;
+  }
+
+  .page-menu ul > li {
+    padding-bottom: 0;
+  }
+
+}

@@ -1,0 +1,78 @@
+/*
+Theme Name: Valencia 
+Theme URI: http://www.ansonika.com/Valencia/
+Author: Ansonika
+Author URI: http://themeforest.net/user/Ansonika/
+ */
+/*============================================================================================*/
+/* montserrat */
+/*============================================================================================*/
+@font-face {
+  font-family: 'montserrat_light';
+  src: url('Montserrat-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_light_italic';
+  src: url('Montserrat-ThinItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_regular';
+  src: url('Montserrat-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_regular_italic';
+  src: url('Montserrat-LightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_semibold';
+  src: url('Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_semibold_italic';
+  src: url('Montserrat-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_bold';
+  src: url('Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_bold_italic';
+  src: url('Montserrat-SemiBoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_medium';
+  src: url('Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat_medium_italic';
+  src: url('Montserrat-MediumItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

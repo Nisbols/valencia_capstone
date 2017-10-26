@@ -1,0 +1,174 @@
+/* CUSTOM CSS HERE */
+
+.social-padding {
+  padding-right: 15%;
+}
+
+.logo-50th {
+  padding-top: 2em;
+}
+
+.trending {
+  line-height: 2;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+.trending div {
+  padding: .5em 0 0 0;
+}
+
+.bg_grey {
+  background-color: #f3f5f8;
+}
+
+.bg_sky {
+  background-image: url("../img/west-campus-b11-overlay.png"), linear-gradient(180deg, rgba(62, 110, 170, 1) 0%, rgba(250, 239, 255, 1) 100%);
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+.img_lower-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.step_to_do_vr {
+  border-right: solid 2px lightgrey;
+  height: 11.25em;
+}
+
+.step_to_do_number {
+  font-family: 'Lusitana', serif;
+  color: lightgrey;
+  font-size: 6em;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+}
+
+.step_to_do_text {
+  font-size: 1em;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #555;
+  display: block;
+  text-align: center;
+}
+
+a.step_to_do_more {
+  font-size: .7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 33%;
+  text-align: center;
+  padding: 1px 4px 1px 4px;
+  border: 1px solid #999;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+a.step_to_do_more {
+  color: #999;
+  text-decoration: none
+}
+
+a.step_to_do_more:hover {
+  color: white;
+  background-color: #999;
+}
+
+a.button_outline_small, .button_outline_small {
+  margin-left: 2em;
+  padding: 2px 6px;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #999;
+  color: #666;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "montserrat_semibold", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+a.button_outline_small:hover, .button_outline_small:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #999;
+}
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+  .mobile-only {
+    display: block;
+  }
+
+  /*show it on small screens*/
+}
+
+@media screen and (min-width: 991px) {
+  .mobile-only {
+    display: none;
+  }
+
+  /* show it on small screens */
+}
+
+@media screen and (min-width: 0px)  {
+  .desktop-only {
+    display: none;
+  }
+
+  /* show it on small screens */
+}
+
+@media screen and (min-width: 992px) {
+  .desktop-only {
+    display: block;
+  }
+
+  /* hide it elsewhere */
+}
+
+/*THIS ADJUSTS THE BOOTSTRAP-DEFINED COLUMNS TO CONTAIN THE LONGER DESTINATIONS*/
+
+/*
+footer.col-md-2,
+.col-sm-2,
+footer.col-md-4,
+.col-sm-4,
+.col-md-6,
+.col-sm-6,
+.col-md-8,
+.col-sm-8 {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+*/
+
+.fix-nav {
+  display: none;
+  margin-top: 2em;
+}
+
+/*Adds additional space to the right for FontAwesome icons as needed*/
+
+.fa-spacer {
+  padding-right: 1em;
+}
+
+/*LOADING OUR OWN O365 ICON*/
+
+.icon-o365 {
+  margin-left: -.25em;
+  margin-right: -.45em;
+  /* height:3em;
+      width:3em;
+      background-image: url("office_48x1.svg");
+      background-repeat: no-repeat;
+  */
+}

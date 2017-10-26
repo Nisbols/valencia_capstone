@@ -1,0 +1,33 @@
+@import url("main_font/main_font.css");
+/* Main Fonts */
+@import url("animate.min.css");
+/* Animate */
+@import url("bootstrap.min.css");
+/* Main Bootstrap */
+@import url("menu-site.css");
+/* Menu styles */
+@import url("menu-chrome.css");
+@import url("menu-page.css");
+@import url("style.css");
+/* Main theme styles */
+@import url("responsive.css");
+/* Responsive */
+@import url("fontawesome/css/font-awesome.min.css");
+/* FontAwesome Icon pack */
+@import url("valencia_font/css/valencia-font.css");
+@import url("magnific-popup.css");
+/* Lightbox & dialog script */
+@import url("custom.css");
+/* Your custom css (We reccomend use it for a faster and simplified item updates) */
+@import url('https://fonts.googleapis.com/css?family=Lusitana'); /* font for steps */
+/*
+How to change colors
+1) uncomment one of the color variation below
+2) change the header images
+3) this will be changed in the future to allow holiday theming
+
+DONE!
+*/
+/* @import url("color-green.css");					     Color variation Green */
+/* @import url("color-purple.css");					  	 Color variation Purple */
+/* @import url("color-red.css");					     Color variation Green */
