@@ -1,0 +1,615 @@
+/*
+Valencia College News-Events  Feed
+created :  Web and Portal Services
+date:  June 06 2017
+
+*/
+
+.localist-widget-hl ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.localist-widget-hl .event-list {
+  clear: both;
+  position: relative;
+
+  -webkit-transition: opacity .10s ease-out, left .5s ease-out;
+  -moz-transition: opacity .10s ease-out, left .5s ease-out;
+  transition: opacity .10s ease-out, left .5s ease-out;
+
+}
+
+.localist-widget-hl li.event {
+
+  -webkit-transition: opacity .10s .10s ease-out, -webkit-transform .10s .10s ease-out, visibility .10s .10s ease-out;
+  -moz-transition: opacity .10s .10s ease-out, -moz-transform .10s .10s ease-out, visibility .10s .10s ease-out;
+  transition: opacity .10s .10s ease-out, transform .10s .10s ease-out, visibility .10s .10s ease-out;
+
+}
+
+.localist-widget-hl .event-list li {
+  margin-bottom: 20px;
+}
+
+.localist-widget-hl .event-card {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 25px;
+  padding: 0;
+  position: relative;
+  background: #fff;
+  border: 2px solid #efefef;
+  color: #989694;
+  font-size: .8125rem;
+}
+
+.localist-widget-hl .event-overview {
+
+  -webkit-transition: all .10s ease-out;
+  -moz-transition: all .10s ease-out;
+  transition: all .10s ease-out;
+
+}
+
+.localist-widget-hl .event-details {
+  background: rgba(84, 130, 171, 0.8);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+
+  -webkit-transition: all .10s ease-out;
+  -moz-transition: all .10s ease-out;
+  transition: all .10s ease-out;
+
+}
+
+.localist-widget-hl dl {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.localist-widget-hl .event-specs dt {
+  background-position: center;
+  background-repeat: no-repeat;
+  clear: both;
+  margin-right: 15px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 40px;
+  float: left;
+}
+
+.localist-widget-hl .event-specs dt, .event-specs dd {
+  padding: 14px 0 17px;
+}
+
+.localist-widget-hl .event-specs dd {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  margin: 0;
+}
+
+.localist-widget-hl .event-detail-title {
+  display: block;
+  line-height: 1.1875em;
+  margin-bottom: 1.5em;
+  font-size: 13px;
+}
+
+.localist-widget-hl .event-specs dd:before {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 1px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  content: '';
+}
+
+.localist-widget-hl strong {
+  font-weight: 700;
+}
+
+.localist-widget-hl .event-specs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-width: 1px 0;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.localist-widget-hl .cover {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+}
+
+.localist-widget-hl .event-card header {
+  overflow: hidden;
+  position: relative;
+  height: 13.538em;
+}
+
+.localist-widget-hl .event-card:hover .event-details {
+  opacity: 1;
+  visibility: visible;
+}
+
+.localist-widget-hl .event-list .event-overview .content {
+  height: 7.615384615em;
+  border: 1px solid #efefef;
+  border-width: 0 1px;
+  padding: 23px 20px 19px;
+}
+
+.localist-widget-hl .event-card:hover .event-title, .localist-widget-hl .event-card:hover .event-short-date, .localist-widget-hl .event-card:hover .content:before {
+  opacity: 0;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.localist-widget-hl .event-card .content:before {
+  background: #fff;
+  bottom: 0;
+  content: '';
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+}
+
+.localist-widget-hl .event-card:hover .event-title, .localist-widget-hl .event-card:hover .event--date, .localist-widget-hl .event-card:hover .content:before {
+  opacity: 0;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.localist-widget-hl .event-card .content p {
+  overflow: hidden;
+  margin: 0;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  line-height: 1.5em;
+  font-family: Georgia, serif;
+}
+
+.localist-widget-hl .event-title {
+  background: rgba(0, 0, 0, 0.5) left top;
+  bottom: 0;
+  color: #fff;
+  font-weight: 800;
+  left: 0;
+  overflow: hidden;
+  padding: 7px 20px 5px;
+  position: absolute;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  z-index: 1;
+  line-height: 1.875rem;
+  font-size: .8125rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  outline: 0;
+  vertical-align: baseline;
+  border: 0;
+
+  -webkit-transition: all .10s ease-out;
+  -moz-transition: all .10s ease-out;
+  transition: all .10s ease-out;
+
+}
+
+.localist-widget-hl .event-short-date {
+
+  background: #5482ab;
+  position: absolute;
+  width: 2.777777778em;
+  height: 2.777777778em;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: .333333333em 0 0;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.125rem;
+  line-height: 1.111111111em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+
+  -webkit-transition: all .10s ease-out;
+  -moz-transition: all .10s ease-out;
+  transition: all .10s ease-out;
+
+}
+
+.localist-widget-hl .event-card:hover .event-img {
+
+  -webkit-transform: scale(1.75) translateX(-30%) translateY(16%);
+  -moz-transform: scale(1.75) translateX(-30%) translateY(16%);
+  -ms-transform: scale(1.75) translateX(-30%) translateY(16%);
+  -o-transform: scale(1.75) translateX(-30%) translateY(16%);
+  transform: scale(1.75) translateX(-30%) translateY(16%);
+
+}
+
+.localist-widget-hl .event-card .content:before {
+  position: absolute;
+  background: #fff;
+  left: 1px;
+  bottom: 0;
+  right: 1px;
+  content: '';
+  height: 17px;
+}
+
+.localist-widget-hl .event-img {
+  position: relative;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  display: block;
+  left: 50%;
+
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  -webkit-transition: all .10s ease-out;
+  -moz-transition: all .10s ease-out;
+  transition: all .10s ease-out;
+
+}
+
+.localist-widget-hl .event-card img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.localist-widget-hl .event-card:hover .event-title, .localist-widget-hl .event-card:hover .localist-widget-hl .event-short-date, .localist-widget-hl .event-card:hover .content:before {
+  opacity: 0;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.localist-widget-hl .event-card .event-short-date {
+  background: #5482ab;
+}
+
+.localist-widget-hl .event-card:hover header {
+  overflow: visible;
+}
+
+.localist-widget-hl .event-card:hover {
+  border-color: rgba(84, 130, 171, 0.8);
+}
+
+.localist-widget-hl .event-card:hover .event-overview {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.localist-widget-hl .event-list .event-card {
+  height: 21.153846154em;
+}
+
+.localist-widget-hl .event-short-date abbr {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.181818182em;
+  border: 0 none;
+}
+
+.localist-widget-hl * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.localist-widget-hl .pin {
+  width: 17px;
+  height: 17px;
+  border-radius: 48% 50% 50% 0;
+  background: #fff;
+  transform: rotate(-45deg);
+  float: left;
+  margin-left: 10px;
+  text-indent: initial;
+  -webkit-backface-visibility: hidden;
+}
+
+.localist-widget-hl .pin:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin: 5px 0 0 6px;
+  background: rgba(84, 130, 171, 0.8);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.localist-widget-hl .clock {
+  float: left;
+  margin-top: 0;
+  border: 2px solid #fff;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border-radius: 100%;
+  height: 18px;
+  width: 18px;
+  margin-left: 8px;
+  -webkit-backface-visibility: hidden;
+}
+
+.localist-widget-hl .clock:before {
+  height: 4px;
+  left: 8px;
+  top: 4px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  border: 1px solid #fff;
+  content: '';
+  position: absolute;
+}
+
+.localist-widget-hl .clock:after {
+  height: 4px;
+  left: 6px;
+  top: 2px;
+  border: 1px solid #fff;
+  content: '';
+  position: absolute;
+}
+
+@media only screen and (min-width: 30em) {
+  .localist-widget-hl .event-list > li:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .localist-widget-hl .event-list > li:not(:nth-child(2n)) {
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  .localist-widget-hl .event-list > li:nth-child(3n+1) {
+    clear: left;
+  }
+
+  .localist-widget-hl .event-list > li:not(:nth-child(3n)) {
+    margin-right: 3.125%;
+  }
+
+  .localist-widget-hl .event-list li:nth-child(2n+1):not(:nth-child(3n+1)) {
+    clear: none;
+  }
+
+  .localist-widget-hl .event-list > li:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+/* Event Feeds */
+.event_item {
+  margin: 5px 0;
+  padding: 0 10px 0 0;
+  display: table;
+  border-spacing: 5px;
+}
+
+.event_item.widget {
+  border-spacing: 0;
+}
+
+.event_image {
+  display: table-cell;
+}
+
+.event_image img {
+  border: solid 1px #ddd;
+}
+
+.event_date {
+  display: table-cell;
+  background: url('https://valenciacollege.edu/images/icon_event.png') center center no-repeat;
+  height: 34px;
+  width: 39px;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #606060;
+}
+
+.event_date span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.event_content {
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.content_style {
+  font-size: 12px;
+}
+
+.event_item .event_link.big {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.event_item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.event_item a:hover {
+  color: #bf311a;
+}
+
+.event_sub {
+  font-size: 10px;
+  color: #999;
+}
+
+.event_sub.content_date {
+  font-size: 12px;
+}
+
+a.event_more {
+  display: inline-block;
+  padding: 2px 8px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #bf311a;
+  color: white;
+  text-decoration: none;
+}
+
+.featured_event {
+  float: left;
+  background-color: white;
+}
+
+.featured_event_content {
+  width: 392px;
+  height: 196px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.featured_event_heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b7b7b7;
+  font-size: 12px;
+}
+
+.featured_event_title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #bf311a;
+}
+
+.event_sub.featured {
+  font-size: 12px;
+  color: black;
+}
+
+.featured_event_pager {
+  text-align: center;
+  width: 412px;
+  height: 14px;
+  margin: 10px;
+}
+
+.featured_event_pager a {
+  display: inline-block;
+  background: url('https://valenciacollege.edu/images/sprite-dots.png') left center;
+  font-size: 0;
+  margin: 0 2px;
+  height: 17px;
+  width: 17px;
+}
+
+.featured_event_pager a:hover {
+  background: url('https://valenciacollege.edu/images/sprite-dots.png') right center;
+}
+
+.featured_event_pager a.activeSlide {
+  background: url('https://valenciacollege.edu/images/sprite-dots.png') right center;
+}
+
+.featured_event_images {
+  width: 336px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 62.5em) {
+  .localist-widget-hl .event-list > li:not(:nth-child(5n)) {
+    margin-right: 1.66667%;
+  }
+
+  .localist-widget-hl .event-list > li:nth-child(5n+1) {
+    clear: left;
+  }
+
+  .localist-widget-hl .event-list li:nth-child(3n+1) {
+    clear: none;
+  }
+
+  .localist-widget-hl .event-list > li:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+  .localist-widget-hl .event-list > li {
+    float: left;
+    margin-bottom: 5%;
+    width: 47.5%;
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  .localist-widget-hl .event-list > li {
+    float: left;
+    margin-bottom: 3.125%;
+    width: 31.25%;
+  }
+}
+
+@media only screen and (min-width: 62.5em) {
+  .localist-widget-hl .event-list > li {
+    float: left;
+    margin-bottom: 1.66667%;
+    width: 18.66667%;
+  }
+}

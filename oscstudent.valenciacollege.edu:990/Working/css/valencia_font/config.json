@@ -1,0 +1,24 @@
+{
+  "name": "valencia-font",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "9a5572f10f4c528d5214fe58f84b0b70",
+      "css": "o365",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M854.2 137.5L593.8 62.5 127.1 237.5H125V764.6L291.7 697.9V270.8L604.2 193.8V833.3L125 764.6 593.8 937.5 854.2 864.6V137.5Z",
+        "width": 1000
+      },
+      "search": [
+        "Office 365"
+      ]
+    }
+  ]
+}
