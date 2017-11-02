@@ -1,0 +1,88 @@
+/*Settings to create accordions*/
+button.accordion {
+    background-color: rgba(167,169,172,.25);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid rgb(167, 169, 172);
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/*Faculty International Ed Conference Page settings*/
+div.conference{
+	text-align: center;
+}
+button.conferenceButton{
+	background-color: rgba(191, 49, 26, .85);
+	color:white;
+    cursor: pointer;
+	width: 250px;
+	border-radius: 4px;
+	height: auto;
+}
+button.conferenceButton:active, button.conferenceButton:hover{
+	background-color: #BF311A;
+}
+
+/*Settings for the alert message boxes*/
+div.alert {
+    padding: 20px;
+    background-color: rgba(167, 169, 172, .25); /* Gray */
+	color: rgba(0, 0, 0, .5);
+    margin-bottom: 15px;
+	border: solid 1px #aaa;
+	
+}
+span.closebtn {
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: rgb(255, 0, 0);
+}
+.info {
+    background-image: url(../img/iconNotes.png);
+    background-size: 30px auto;
+    min-height: 1em;
+    padding-left: 44px;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding: 20px;
+}
+
+.infoData{
+	text-align: left;
+	padding-left: 24px;
+}

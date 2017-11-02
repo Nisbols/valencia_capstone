@@ -1,0 +1,117 @@
+.bg_test img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+ .bg_test {
+  position: relative;
+
+}
+
+.quote_test{
+  position: absolute;
+  top: 80px;
+  left: 650px;
+  right: 28px;
+  margin-right: 0;
+}
+
+.sage_quote {
+  color: #000;
+  text-align: center;
+  display: block;
+	margin-top: 15px;
+  margin-bottom: 15px;
+	font-size: 1.125em;
+	font-style: italic;
+	font-family: 'Georgia', cursive;
+
+}
+
+.sage {
+  position: relative;
+	overflow: hidden;
+  top: 40px;
+	position: relative;
+
+}
+
+
+div.sage > a img {
+	opacity: 0.5;
+}
+
+div.sage > a:hover img{
+	opacity: 1;
+	transition: .3s ease;
+
+}
+
+.sage_landing_header {
+    max-height: 250px;
+    background-image: url(../img/header_bg_2_1600x250.jpg);
+}
+
+/* Responsive CSS Code */
+
+@media only screen and (max-width: 1200px){
+
+ .quote_test {
+   left: 500px;
+ }
+
+ /* .bg_test img {
+   display: none;
+ } */
+
+
+}
+
+@media only screen and (max-width: 992px){
+
+
+ .quote_test {
+   left: 500px;
+ }
+
+ /*.bg_test img {
+   display: none;
+ } */
+
+
+}
+
+@media only screen and (max-width:768px) {
+
+  main {
+    height: 400px;
+  }
+
+
+ .quote_test {
+   left: 40px;
+   background-color: rgba(252,246,207,.5);
+ }
+
+ .bg_test img {
+   display: none;
+ }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    height: 400px;
+  }
+  .bg_test img {
+    display: none;
+  }
+
+  .quote_test {
+    background-color: rgba(252,246,207,.5);
+  }
+
+}
