@@ -1,0 +1,26 @@
+
+/*Faculty Page International Education Conferences settings*/
+	.sub_header.facultyIEC {
+	background-image: url(../img/Students.jpg);
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+
+table.table{
+	width: 100%;
+	border: 1px solid black;
+	color: black;
+	
+}
+th.tableHead{
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+	background: #FDB913;
+}
+td.tableData{
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+}

@@ -54,6 +54,19 @@ div.sage > a:hover img{
     background-image: url(../img/header_bg_2_1600x250.jpg);
 }
 
+.social-paddingtwo {
+   padding-right: 3%;
+}
+
+.Contact-header {
+    background-image: url(../img/Contact_header.jpg);
+    background-position: center center;
+  	background-size: cover;
+    max-height: 35vmax;
+}
+
+
+
 /* Responsive CSS Code */
 
 @media only screen and (max-width: 1200px){
@@ -62,9 +75,8 @@ div.sage > a:hover img{
    left: 500px;
  }
 
- /* .bg_test img {
-   display: none;
- } */
+
+
 
 
 }
@@ -76,9 +88,7 @@ div.sage > a:hover img{
    left: 500px;
  }
 
- /*.bg_test img {
-   display: none;
- } */
+
 
 
 }
@@ -103,8 +113,11 @@ div.sage > a:hover img{
 }
 
 @media only screen and (max-width: 480px) {
-  main {
+  .main2{
     height: 400px;
+  }
+  main {
+    height: 1700px;
   }
   .bg_test img {
     display: none;
