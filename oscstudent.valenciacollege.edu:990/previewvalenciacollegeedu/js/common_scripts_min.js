@@ -139,7 +139,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     this.$element = a(b), this.$indicators = this.$element.find(".carousel-indicators"), this.options = c, this.paused = null, this.sliding = null, this.interval = null, this.$active = null, this.$items = null, this.options.keyboard && this.$element.on("keydown.bs.carousel", a.proxy(this.keydown, this)), "hover" == this.options.pause && !("ontouchstart" in document.documentElement) && this.$element.on("mouseenter.bs.carousel", a.proxy(this.pause, this)).on("mouseleave.bs.carousel", a.proxy(this.cycle, this))
   };
   c.VERSION = "3.3.5", c.TRANSITION_DURATION = 600, c.DEFAULTS = {
-    interval: 5e3,
+    interval: 15e3,
     pause: "hover",
     wrap: !0,
     keyboard: !0

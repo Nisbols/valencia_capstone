@@ -1,0 +1,15 @@
+
+.comittee {
+	background-image: url(../img/comittee.jpg);
+	background-position: center center;
+	background-size: cover;
+    max-height: 35vmax;}
+	
+.body2	 {
+   
+   
+    font-family: "montserrat_regular", Arial, sans-serif;
+    color: #444;
+    line-height: 1.75;
+	font-size: 14px;
+}
