@@ -139,7 +139,7 @@ $(document).ready(function () {
   'use strict';
   $('#quote-carousel').carousel({
     pause: true,
-    interval: 6000
+    interval: 10000
   });
 });
 
