@@ -9,7 +9,7 @@
   position: relative;
 
 }
-
+/* SAGE landing carousel */
 .quote_test{
   position: absolute;
   top: 80px;
@@ -29,6 +29,8 @@
 	font-family: 'Georgia', cursive;
 
 }
+
+/* SAGE landing carousel end */
 
 .sage {
   position: relative;
@@ -54,6 +56,8 @@ div.sage > a:hover img{
     background-image: url(../img/header_bg_2_1600x250.jpg);
 }
 
+/* contact sage */
+
 .social-paddingtwo {
    padding-right: 3%;
 }
@@ -64,7 +68,12 @@ div.sage > a:hover img{
   	background-size: cover;
     max-height: 35vmax;
 }
-
+ul.list_staff li.sage_staff {
+  position: relative;
+  display: block;
+  width: 50%;
+  float:left;
+}
 
 
 /* Responsive CSS Code */
@@ -76,20 +85,13 @@ div.sage > a:hover img{
  }
 
 
-
-
-
 }
 
 @media only screen and (max-width: 992px){
 
-
  .quote_test {
    left: 500px;
  }
-
-
-
 
 }
 
@@ -113,6 +115,10 @@ div.sage > a:hover img{
 }
 
 @media only screen and (max-width: 480px) {
+  div.sage > a img {
+  	opacity: 1;
+  }
+
   .main2{
     height: 400px;
   }
@@ -126,5 +132,7 @@ div.sage > a:hover img{
   .quote_test {
     background-color: rgba(252,246,207,.5);
   }
+
+
 
 }
