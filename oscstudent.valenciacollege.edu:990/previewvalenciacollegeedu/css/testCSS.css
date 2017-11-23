@@ -71,6 +71,7 @@ div.sage > a:hover img{
 ul.list_staff li.sage_staff {
   position: relative;
   display: block;
+  /*-webkit-column-width: 50%;*/
   width: 50%;
   float:left;
 }
