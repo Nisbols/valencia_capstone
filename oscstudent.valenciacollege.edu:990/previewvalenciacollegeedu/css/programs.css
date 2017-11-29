@@ -1,0 +1,96 @@
+
+.short_info h3 {
+		padding-left: 7px;
+}
+.icon_for_pdf {
+	background-position: right center;
+	padding: 1px 24px 1px 0
+
+}
+.icon_for_pdf:link, .icon_for_pdf:visited, .icon_for_pdf:hover, .icon_for_pdf:active {
+	background-image: url(../img/programs/icon_pdf.png);
+	background-repeat: no-repeat;
+}
+
+.program_head h2 {
+	text-align: center;
+}
+.program_head h3 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+/*
+.container {
+	padding-bottom: 20px;
+}
+*/
+@media only screen and (min-width: 1200px) {
+	.container {
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.container {
+			padding-bottom: 20px;
+		}
+}
+
+@media only screen and (max-width: 992px) {
+	.container {
+			padding-bottom: 20px;
+		}
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+			padding-bottom: 0px;
+		}
+}
+
+/* Programs Images */
+.sage_program {
+	position: relative;
+	overflow: hidden;
+	/* bottom: -60px;*/
+	position: relative;
+}
+
+.sage_program a:hover img {
+	opacity: 1.25;
+	transition: all 0.5s ease;
+}
+
+.sage_program a img {
+	opacity: .5;
+}
+.short_info_prog {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+}
+
+.short_info_prog h3 {
+	color: #fff;
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-left: 7px;
+	text-shadow: 1px 1px #000000;
+}
+.short_term_header {
+	background-image: url(../img/programs/sage_programs.jpg);
+	height: 470px;
+}
+.sub_header.bg_5 {
+	background-image: url(../img/programs/sage_program_1600x850.jpg);
+	background-position: center center;
+	background-size: cover;
+    max-height: 35vmax;}
