@@ -1,3 +1,5 @@
+/* SAGE landing backgrond image */
+
 .bg_test img{
   width: 100%;
   background-repeat: no-repeat;
@@ -9,6 +11,8 @@
   position: relative;
 
 }
+
+
 /* SAGE landing carousel */
 .quote_test{
   position: absolute;
@@ -30,7 +34,9 @@
 
 }
 
-/* SAGE landing carousel end */
+/* END SAGE landing carousel */
+
+/* Student landing css */
 
 .sage {
   position: relative;
@@ -51,12 +57,24 @@ div.sage > a:hover img{
 
 }
 
-.sage_landing_header {
+/* END student landing css */
+
+.student_landing_header {
     max-height: 250px;
-    background-image: url(../img/header_bg_2_1600x250.jpg);
+    background-image: url(../img/student-header.jpg);
 }
 
-/* contact sage */
+.faculty_landing_header {
+  max-height: 250px;
+  background-image: url(../img/faculty-header.jpg);
+}
+
+.sage_landing_header {
+  max-height: 250px;
+  background-image: url(../img/sage-landing-header.jpg);
+}
+
+/* contact sage css*/
 
 .social-paddingtwo {
    padding-right: 3%;
