@@ -1,0 +1,9 @@
+
+/*program template page settings*/
+	.sub_header.prog {
+	background-image: url(../img/Students.jpg);/*select image and place in img folder*/
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+

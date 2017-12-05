@@ -1,0 +1,140 @@
+/*Short term CSS and sub-pages */
+
+.sub_header.bg_landing_shortterm {
+	background-image: url(../img/landing/studyabroad.jpg);
+	background-position: center center;
+    background-size: 100% 100%;
+    opacity: .85;
+    max-height: 35vmax;
+}
+.sub_header.bg_landing_scholarships {
+	background-image: url(../img/landing/finacialaid.jpg);
+	background-position: center center;
+    background-size: 100% 100%;
+    opacity: .85;
+    max-height: 35vmax;
+}
+.sub_header.bg_landing_howtoapply {
+	background-image: url(../img/landing/howtoapply.jpg);
+	background-position: center center;
+    background-size: 100% 100%;
+    opacity: .85;
+    max-height: 35vmax;
+}
+.main_title_shortterm {
+	display: block;
+	float: left;
+	text-align: left;
+	margin-bottom: 45px;
+}
+.main_title h2 {
+	font-size: 34px;
+	letter-spacing: -1px;
+	margin-top: 0;
+}
+.main_title p {
+	font-size: 22px;
+	font-family: "montserrat_light", Arial, Helvetica, sans-serif;
+	color: #777;
+	line-height: 1.2;
+}
+.col-md{
+	display: block;
+	float: right;
+}
+.container_white {
+	background-color: #ffffff;
+	padding: 10px;
+}
+.container_gray {
+	background-color: #f3f5f8;
+	padding: 10px;
+}
+.container_white_bg {
+	background-color: #444;
+}
+/* short term selection boxes */
+ a.selection {
+	text-align: center;
+	background: #fff;
+	padding: 40px 30px 30px 30px;
+	display: block;
+	transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	-webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
+	-moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
+	box-shadow: 0px 3px 0px 0px #f0f2f4;
+	color: #666;
+	margin-bottom: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+a.selection:hover {
+	transform: translate(0, -10px);
+	-webkit-transform: translate(0, -10px);
+	-ms-transform: translate(0, -10px);
+	-webkit-box-shadow: 0px 3px 0px 0px #ebedef;
+	-moz-box-shadow: 0px 3px 0px 0px #ebedef;
+	box-shadow: 0px 3px 0px 0px #ebedef;
+}
+a.selection i {
+	font-size: 68px;
+	color: #BF311A;
+}
+a.selection h3 {
+	text-transform: uppercase;
+	font-size: 17px;
+}
+div.alert {
+    padding: 20px;
+    background-color: rgba(167, 169, 172, .25);
+    color: rgba(0, 0, 0, .5);
+    margin-bottom: 15px;
+    border: solid 1px #aaa;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.tableHead_3 {
+    background-color: #ffd659;
+    font: bold 14px arial;
+    color: #000;
+    padding: 7px;
+}
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 0 40px 1em;
+}
+.notice {
+    color: #bf311a;
+}
+
+.important-note-small, .important-note-medium {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: #f0f0f0;
+    border: solid 1px #aaa;
+    padding: 20px;
+}
+.important-note-small {
+    background-image: url(../img/icon_note24.png);
+    background-size: 24px auto;
+    min-height: 1em;
+    padding-left: 44px;
+}
+h3.position {
+    text-align: left;
+}
+

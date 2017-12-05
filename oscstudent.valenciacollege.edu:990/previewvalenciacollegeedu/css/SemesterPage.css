@@ -2,7 +2,7 @@
 .sub_header.semesterAbroadPage {
 	background-image: url(../img/semesterAbroad/semesterHeaderImage.jpg);
 	background-position: center center;
-	background-size: 100% 100%;
+	background-size: cover;
 	opacity: .85;
     max-height: 35vmax;}
 
