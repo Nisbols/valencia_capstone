@@ -1,4 +1,4 @@
-/* SAGE landing backgrond image */
+/* SAGE landing backgrond image css */
 
 .bg_test img{
   width: 100%;
@@ -11,7 +11,7 @@
   position: relative;
 
 }
-
+/* END SAGE landing background image css */
 
 /* SAGE landing carousel */
 .quote_test{
@@ -38,26 +38,26 @@
 
 /* Student landing css */
 
-.sage {
+.landing_img {
   position: relative;
 	overflow: hidden;
   top: 40px;
 	position: relative;
-
 }
 
-
-div.sage > a img {
+div.landing_img > a img {
 	opacity: 0.5;
 }
 
-div.sage > a:hover img{
+div.landing_img > a:hover img{
 	opacity: 1;
 	transition: .3s ease;
 
 }
 
 /* END student landing css */
+
+/* Landing header images */
 
 .student_landing_header {
     max-height: 250px;
@@ -74,6 +74,8 @@ div.sage > a:hover img{
   background-image: url(../img/sage-landing-header.jpg);
 }
 
+/* END landing header images css */
+
 /* contact sage css*/
 
 .social-paddingtwo {
@@ -89,11 +91,11 @@ div.sage > a:hover img{
 ul.list_staff li.sage_staff {
   position: relative;
   display: block;
-  /*-webkit-column-width: 50%;*/
   width: 50%;
   float:left;
+  margin-top: 15px;
 }
-
+/* END contact sage css */
 
 /* Responsive CSS Code */
 
@@ -131,10 +133,12 @@ ul.list_staff li.sage_staff {
  }
 
 
+
+
 }
 
 @media only screen and (max-width: 480px) {
-  div.sage > a img {
+  div.student_landing_header > a img {
   	opacity: 1;
   }
 
@@ -151,7 +155,6 @@ ul.list_staff li.sage_staff {
   .quote_test {
     background-color: rgba(252,246,207,.5);
   }
-
 
 
 }
