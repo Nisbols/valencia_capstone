@@ -8,7 +8,7 @@
 
 }
 .icon_for_pdf:link, .icon_for_pdf:visited, .icon_for_pdf:hover, .icon_for_pdf:active {
-	background-image: url(../img/programs/icon_pdf.png);
+	background-image: url("../img/programs/icon_pdf.png");
 	background-repeat: no-repeat;
 }
 
@@ -86,11 +86,11 @@
 	text-shadow: 1px 1px #000000;
 }
 .short_term_header {
-	background-image: url(../img/programs/sage_programs.jpg);
+	background-image: url("../img/programs/sage_programs.jpg");
 	height: 470px;
 }
 .sub_header.bg_5 {
-	background-image: url(../img/programs/sage_program_1600x850.jpg);
+	background-image: url("../img/programs/sage_program_1600x850.jpg");
 	background-position: center center;
 	background-size: cover;
     max-height: 35vmax;}

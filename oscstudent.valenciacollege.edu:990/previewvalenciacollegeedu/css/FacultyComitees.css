@@ -1,0 +1,81 @@
+/*Changes pictures for each section*/
+.sub_header.semesterAbroadPage_1 {
+	background-image: url(../img/semesterAbroad/page1Image.jpg);
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+	
+	.sub_header.semesterAbroadPage_2 {
+	background-image: url(../img/semesterAbroad/page2Image.jpg);
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+	
+	.sub_header.semesterAbroadPage_3 {
+	background-image: url(../img/semesterAbroad/page3Image.jpg);
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+	
+	.sub_header.semesterAbroadPage_4 {
+	background-image: url(../img/semesterAbroad/page4Image.jpg);
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+
+/*Settings to change link colors*/
+a {
+	color: blue;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	outline: none;
+	
+}
+a:hover, a:focus {
+	
+	text-decoration: none;
+	outline: none;
+}
+
+a:visited{
+	color:rgb(157, 40, 21);
+
+}
+
+a.buttons{
+	color: #BF311A;
+}
+
+a.buttons:hover, a.buttons:focus{
+	color: #FDB913;
+}
+/*Faculty Page International Education Conferences settings*/
+	.sub_header.facultyIEC {
+	background-image: url(../img/InternationalConferenceImage.jpg);
+	background-position: center center;
+	background-size: cover;
+	opacity: .85;
+    max-height: 35vmax;}
+
+table.conferenceTable{
+	width: 100%;
+	border: 1px solid black;
+	color: black;
+	
+}
+th.conferenceTableHead{
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+	background: #FDB913;
+}
+td.conferenceTableData{
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+}
