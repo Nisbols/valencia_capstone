@@ -1,21 +1,26 @@
 /*Short term CSS and sub-pages */
 
 .sub_header.bg_landing_shortterm {
-	background-image: url(../img/landing/studyabroad.jpg);
+	background-image: url(../img/landing/studyabroad2.jpg);
 	background-position: center center;
     background-size: 100% 100%;
     opacity: .85;
     max-height: 35vmax;
+	
 }
 .sub_header.bg_landing_scholarships {
-	background-image: url(../img/landing/finacialaid.jpg);
+	background-image: url(../img/landing/finacialaid2.jpg);
 	background-position: center center;
     background-size: 100% 100%;
     opacity: .85;
     max-height: 35vmax;
+	max-width : 100%;
+	
+	
+	
 }
 .sub_header.bg_landing_howtoapply {
-	background-image: url(../img/landing/howtoapply.jpg);
+	background-image: url(../img/landing/howtoapply2.jpg);
 	background-position: center center;
     background-size: 100% 100%;
     opacity: .85;
@@ -137,4 +142,37 @@ blockquote {
 h3.position {
     text-align: left;
 }
+.margin_70 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.step_to_do_vr1 {
+  border-right: solid 2px lightgrey;
+  height: 15em;
+}
+
+.step_to_do_numberapply {
+  font-family: 'Lusitana', serif;
+  color: lightgrey;
+  font-size: 2em;
+  line-height: 1em;
+  display: inline-table;
+  text-align: center;
+}
+
+.step_to_do_text1 {
+  font-size: .9em;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #555;
+  display: inherit;
+  text-align: center;
+}
+.margin_90 {
+	margin-top: 90px;
+	margin-bottom: 120px;
+}
+
+
 

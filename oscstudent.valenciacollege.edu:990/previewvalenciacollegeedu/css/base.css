@@ -9,6 +9,7 @@
 @import url("menu-chrome.css");
 @import url("menu-page.css");
 @import url("style.css");
+@import url("ActivePageElements.css");
 /* Main theme styles */
 @import url("responsive.css");
 /* Responsive */
@@ -20,7 +21,9 @@
 @import url("custom.css");
 /* Your custom css (We reccomend use it for a faster and simplified item updates) */
 @import url('https://fonts.googleapis.com/css?family=Lusitana'); /* font for steps */
+
 /*
+
 How to change colors
 1) uncomment one of the color variation below
 2) change the header images

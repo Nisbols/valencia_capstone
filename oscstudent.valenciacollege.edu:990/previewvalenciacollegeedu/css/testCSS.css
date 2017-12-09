@@ -1,5 +1,3 @@
-/* SAGE landing backgrond image css */
-
 .bg_test img{
   width: 100%;
   background-repeat: no-repeat;
@@ -11,8 +9,6 @@
   position: relative;
 
 }
-/* END SAGE landing background image css */
-
 /* SAGE landing carousel */
 .quote_test{
   position: absolute;
@@ -34,49 +30,33 @@
 
 }
 
-/* END SAGE landing carousel */
+/* SAGE landing carousel end */
 
-/* Student landing css */
-
-.landing_img {
+.sage {
   position: relative;
 	overflow: hidden;
   top: 40px;
 	position: relative;
+
 }
 
-div.landing_img > a img {
+
+div.sage > a img {
 	opacity: 0.5;
 }
 
-div.landing_img > a:hover img{
+div.sage > a:hover img{
 	opacity: 1;
 	transition: .3s ease;
 
 }
 
-/* END student landing css */
-
-/* Landing header images */
-
-.student_landing_header {
-    max-height: 250px;
-    background-image: url(../img/student-header.jpg);
-}
-
-.faculty_landing_header {
-  max-height: 250px;
-  background-image: url(../img/faculty-header.jpg);
-}
-
 .sage_landing_header {
-  max-height: 250px;
-  background-image: url(../img/sage-landing-header.jpg);
+    max-height: 250px;
+    background-image: url(../img/header_bg_2_1600x250.jpg);
 }
 
-/* END landing header images css */
-
-/* contact sage css*/
+/* contact sage */
 
 .social-paddingtwo {
    padding-right: 3%;
@@ -93,9 +73,8 @@ ul.list_staff li.sage_staff {
   display: block;
   width: 50%;
   float:left;
-  margin-top: 15px;
 }
-/* END contact sage css */
+
 
 /* Responsive CSS Code */
 
@@ -133,12 +112,10 @@ ul.list_staff li.sage_staff {
  }
 
 
-
-
 }
 
 @media only screen and (max-width: 480px) {
-  div.student_landing_header > a img {
+  div.sage > a img {
   	opacity: 1;
   }
 
@@ -155,6 +132,7 @@ ul.list_staff li.sage_staff {
   .quote_test {
     background-color: rgba(252,246,207,.5);
   }
+
 
 
 }
