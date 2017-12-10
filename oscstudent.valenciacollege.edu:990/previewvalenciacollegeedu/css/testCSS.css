@@ -1,3 +1,5 @@
+/* SAGE landing backgrond image css */
+
 .bg_test img{
   width: 100%;
   background-repeat: no-repeat;
@@ -9,6 +11,8 @@
   position: relative;
 
 }
+/* END SAGE landing background image css */
+
 /* SAGE landing carousel */
 .quote_test{
   position: absolute;
@@ -30,33 +34,49 @@
 
 }
 
-/* SAGE landing carousel end */
+/* END SAGE landing carousel */
 
-.sage {
+/* Student landing css */
+
+.landing_img {
   position: relative;
 	overflow: hidden;
   top: 40px;
 	position: relative;
-
 }
 
-
-div.sage > a img {
+div.landing_img > a img {
 	opacity: 0.5;
 }
 
-div.sage > a:hover img{
+div.landing_img > a:hover img{
 	opacity: 1;
 	transition: .3s ease;
 
 }
 
-.sage_landing_header {
+/* END student landing css */
+
+/* Landing header images */
+
+.student_landing_header {
     max-height: 250px;
-    background-image: url(../img/header_bg_2_1600x250.jpg);
+    background-image: url(../img/student-header.jpg);
 }
 
-/* contact sage */
+.faculty_landing_header {
+  max-height: 250px;
+  background-image: url(../img/faculty-header.jpg);
+}
+
+.sage_landing_header {
+  max-height: 250px;
+  background-image: url(../img/sage-landing-header.jpg);
+}
+
+/* END landing header images css */
+
+/* contact sage css*/
 
 .social-paddingtwo {
    padding-right: 3%;
@@ -73,8 +93,45 @@ ul.list_staff li.sage_staff {
   display: block;
   width: 50%;
   float:left;
+  margin-top: 15px;
+}
+.faculty_dev_header {
+  background-image: url(../img/prof_dev_header.jpg);
+  background-position: center center;
+  background-size: cover;
+  max-height: 35vmax;
 }
 
+/* END contact sage css */
+
+/*International Travel Registration css */
+
+.sage_travelreg_header {
+  background-image: url(../img/Intl_reg.jpg);
+  background-position: center center;
+  background-size: cover;
+  max-height: 35vmax;
+}
+
+/* END International Travel Registration css */
+
+/* Professional Development CSS */
+
+.important-note-small, .important-note-medium {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: #f0f0f0;
+    border: solid 1px #aaa;
+    padding: 20px;
+}
+
+.important-note-small {
+    background-image: url(../img/icon_note24.png);
+    background-size: 24px auto;
+    min-height: 1em;
+    padding-left: 44px;
+
+/* END Professional Developmet CSS */
 
 /* Responsive CSS Code */
 
@@ -92,6 +149,8 @@ ul.list_staff li.sage_staff {
  .quote_test {
    left: 500px;
  }
+
+
 
 }
 
@@ -112,10 +171,12 @@ ul.list_staff li.sage_staff {
  }
 
 
+
+
 }
 
 @media only screen and (max-width: 480px) {
-  div.sage > a img {
+  div.student_landing_header > a img {
   	opacity: 1;
   }
 
@@ -133,6 +194,14 @@ ul.list_staff li.sage_staff {
     background-color: rgba(252,246,207,.5);
   }
 
+
+ul.list_staff li.sage_staff {
+  position: relative;
+  display: block;
+  width: fit-content;
+  float:left;
+  margin-top: 15px;
+}
 
 
 }
