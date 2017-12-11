@@ -16,7 +16,7 @@ button.accordion.active, button.accordion:hover {
     background-color: #ccc;
 }
 button.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02796'; /* Unicode character for "plus" sign (-) */
     font-size: 13px;
     color: #777;
     float: right;
@@ -24,7 +24,7 @@ button.accordion:after {
 }
 
 button.accordion.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2795"; /* Unicode character for "minus" sign (+) */
 }
 
 div.panel {
