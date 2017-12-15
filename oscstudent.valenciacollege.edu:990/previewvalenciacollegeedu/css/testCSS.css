@@ -115,6 +115,19 @@ ul.list_staff li.sage_staff {
 
 /* END International Travel Registration css */
 
+/*Lead A Study Abroad Program CSS */
+
+.sage_leadstudyabroad_header {
+  background-image: url(../img/leadstudyabroad_header.jpg);
+  background-position: center center;
+  background-size: cover;
+  max-height: 35vmax;
+}
+
+.notice {
+    color: #bf311a;
+}
+
 /* Professional Development CSS */
 
 .important-note-small, .important-note-medium {
@@ -130,6 +143,7 @@ ul.list_staff li.sage_staff {
     background-size: 24px auto;
     min-height: 1em;
     padding-left: 44px;
+}
 
 /* END Professional Developmet CSS */
 
